@@ -16,7 +16,7 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 6.Stop the program
 <BR>
 ## Program 
-import socket
+<BR>import socket
 
 def send_request(host, port, request):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -51,7 +51,7 @@ if _name_ == "_main_":
 
     # Download file
     download_file(host, port, 'example.txt')
-    print("File downloaded successfully.")
+    print("File downloaded successfully.")<BR>
 
 ## OUTPUT
 <img width="1033" height="784" alt="505060529-614bf186-8cd0-4bce-870c-374f1c0e2675" src="https://github.com/user-attachments/assets/946440dd-d140-42a9-b3e0-46ae7d18269a" />
